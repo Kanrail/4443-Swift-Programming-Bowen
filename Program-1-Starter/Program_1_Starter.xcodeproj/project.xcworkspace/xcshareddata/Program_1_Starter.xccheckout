@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C1E1188D-E500-4016-961F-021FE94BC3C4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Program_1_Starter</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0E67E76EC8B4AFCD7845CDC9D6D70458E8E25730</key>
+		<string>https://github.com/Kanrail/4443-Swift-Programming-Bowen.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Program-1-Starter/Program_1_Starter.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0E67E76EC8B4AFCD7845CDC9D6D70458E8E25730</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Kanrail/4443-Swift-Programming-Bowen.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0E67E76EC8B4AFCD7845CDC9D6D70458E8E25730</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0E67E76EC8B4AFCD7845CDC9D6D70458E8E25730</string>
+			<key>IDESourceControlWCCName</key>
+			<string>4443-Swift-Programming-Bowen</string>
+		</dict>
+	</array>
+</dict>
+</plist>
