@@ -34,22 +34,6 @@
                                     <rect key="frame" x="62" y="79" width="251" height="66"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gge-5g-Tg4">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="17"/>
-                                <state key="normal" title="Answer # 1">
-                                    <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="59" y="448" width="257" height="38"/>
-                                </variation>
-                                <connections>
-                                    <action selector="btnAnswer1ACTION:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bR4-s2-WbO"/>
-                                    <action selector="btnFireColorAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8QH-s3-PcZ"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Correct" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yr4-Uz-ff8">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="20"/>
@@ -110,30 +94,46 @@
                                     <rect key="frame" x="62" y="600" width="251" height="41"/>
                                 </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gge-5g-Tg4">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="17"/>
+                                <state key="normal" title="Answer # 1">
+                                    <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="59" y="442" width="257" height="38"/>
+                                </variation>
+                                <connections>
+                                    <action selector="btnAnswer1ACTION:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bR4-s2-WbO"/>
+                                    <action selector="btnFireColorAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8QH-s3-PcZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0055509868421052631" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="ZC6-bj-sBV"/>
                                 <exclude reference="aQI-4g-DZj"/>
-                                <exclude reference="gge-5g-Tg4"/>
                                 <exclude reference="yr4-Uz-ff8"/>
                                 <exclude reference="W7v-iN-haD"/>
                                 <exclude reference="AHT-oi-VLh"/>
                                 <exclude reference="NIu-4a-IKl"/>
                                 <exclude reference="sEf-1P-Aej"/>
+                                <exclude reference="gge-5g-Tg4"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="ZC6-bj-sBV"/>
                                 <include reference="aQI-4g-DZj"/>
-                                <include reference="gge-5g-Tg4"/>
                                 <include reference="yr4-Uz-ff8"/>
                                 <include reference="W7v-iN-haD"/>
                                 <include reference="AHT-oi-VLh"/>
                                 <include reference="NIu-4a-IKl"/>
                                 <include reference="sEf-1P-Aej"/>
+                                <include reference="gge-5g-Tg4"/>
                             </mask>
                         </variation>
                     </view>
